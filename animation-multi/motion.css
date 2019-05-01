@@ -19,7 +19,7 @@ body {
   border-radius: 50px;
   animation-name: cuadrado, rebote;
   animation-duration: 1s, 0.3333s;
-  animation-iteration-count: infinite;
+  animation-iteration-count: 6;
   animation-timing-function: cubic-bezier(0, -0.25, 0, 0.9);
   animation-direction: alternate;
   background-color: orange;
@@ -42,6 +42,14 @@ body {
   }
   to {
     transform: translateX(100px);
+  }
+}
+@keyframes stairs {
+  from {
+    transform: translateX(50px);
+  }
+  to {
+    transform: translateX(0px) scale(1, 0.8);
   }
 }
 .container:hover .cuadrado {
