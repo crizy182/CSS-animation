@@ -1,0 +1,16 @@
+body {
+  display: flex;
+  height: 100vh;
+  align-items: center;
+  justify-content: center;
+}
+.ball {
+  width: 100px;
+  height: 100px;
+  background: red;
+  border-radius: 50%;
+}
+.container {
+  width: 600px;
+  border: 1px solid red;
+}
