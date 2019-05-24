@@ -1,3 +1,4 @@
+<<<<<<< HEAD:transform/motion.css
 body {
   display: flex;
   height: 100vh;
@@ -43,3 +44,49 @@ body {
   transform: rotate(45deg) skew(30deg) translate(100px) scale(1.5);
   
 }
+=======
+body {
+  display: flex;
+  height: 100vh;
+  align-content: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.ball {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  transition-property: width, height;
+  transition: 1s 0s ease-in-out;
+}
+.ball.a {
+  background-color: red;
+  right: 0px;
+}
+.basket:hover .ball.a {
+  right: calc(50% - 100px);
+  background-color: blue;
+}
+
+.ball.b {
+  background-color: blue;
+  position: absolute;
+  left: 0px;
+}
+.basket:hover .ball.b {
+  left: calc(50% - 100px);
+  background-color: red;
+}
+.basket {
+  display: flex;
+  border: 1px solid black;
+  position: relative;
+  height: 100px;
+  width: 100%;
+  transition-property: width, height;
+  transition: 1s 0s ease-in-out;
+}
+>>>>>>> transforms:interaction/motion.css
