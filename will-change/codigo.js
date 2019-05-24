@@ -5,4 +5,5 @@ $cuadrado.addEventListener('animationend', event => {
     $cuadrado.style.animationDuration = '4s, 1s, 1s , 1s';
     $cuadrado.style.animationIterationCount = 'infinite';
   }
+
 });
