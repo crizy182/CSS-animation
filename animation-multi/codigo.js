@@ -5,6 +5,7 @@ $cuadrado.addEventListener('animationend', event => {
     $cuadrado.style.animationDuration = '1s';
     $cuadrado.style.animationIterationCount = '10';
   }
+  
   if (event.animationIterationCount === '9') {
     $cuadrado.style.animationName = 'cuadrado ,rebote';
     $cuadrado.style.animationDuration = '2s';
