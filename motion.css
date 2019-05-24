@@ -6,6 +6,7 @@
   transition-property: width, height;
   transition: 1s 0s ease-in-out;
 }
+
 .ball:hover {
   width: 300px;
   height: 300px;
